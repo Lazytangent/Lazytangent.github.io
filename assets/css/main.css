@@ -4109,3 +4109,9 @@ input, select, textarea {
 					}
 
 	}
+
+/* Custom Styles */
+
+	#profile {
+		width: 50%;
+	}
