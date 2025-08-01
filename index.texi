@@ -1,0 +1,26 @@
+\input texinfo
+@setfilename lazytangent.info
+@settitle lazytangent
+@documentencoding UTF-8
+
+@copying
+Copyright @copyright{} 2025 Lazytangent
+@end copying
+
+@titlepage
+@end titlepage
+
+@contents
+@raisesections
+
+@node Top
+@top lazytangent
+
+@menu
+* Sect. 1:: Hello world
+@end menu
+
+@node Hello world, , , Top
+@section Hello world
+
+@bye
