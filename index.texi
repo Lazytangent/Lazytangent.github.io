@@ -17,10 +17,25 @@ Copyright @copyright{} 2025 Lazytangent
 @top Home
 
 @menu
-* Sect. 1:: Hello world
+* Sect. 1:: About Me
 @end menu
 
-@node Hello world, , , Top
-@section Hello world
+@node About Me, , , Top
+@section About Me
+
+@menu
+* What I do.
+* What I've done.
+* What I'd like to do next.
+@end menu
+
+@node What I do, , , About Me
+@subsection What I do
+
+@node What I've done, , , About Me
+@subsection What I've done
+
+@node What I'd like to do next, , , About Me
+@subsection What I'd like to do next
 
 @bye

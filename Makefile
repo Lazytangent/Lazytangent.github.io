@@ -5,6 +5,7 @@ build:
 		--css-include simple.css \
 		--output docs/ \
 		index.texi
+	cp CNAME docs/
 
 .PHONY: clean
 clean:
