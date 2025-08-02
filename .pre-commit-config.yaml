@@ -1,0 +1,7 @@
+repos:
+  - repo: local
+    hooks:
+      - id: make
+        name: make
+        entry: /usr/bin/make
+        language: script
