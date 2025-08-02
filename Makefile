@@ -1,7 +1,7 @@
 .PHONY: build
-build:
+build: clean
 	makeinfo --html \
-		--css-ref https://cdn.jsdelivr.net/npm/water.css@2/out/dark.css \
+		--css-include dark.css \
 		--css-include simple.css \
 		--output docs/ \
 		index.texi
@@ -9,4 +9,4 @@ build:
 
 .PHONY: clean
 clean:
-	rm -r docs/
+	rm -rf docs/

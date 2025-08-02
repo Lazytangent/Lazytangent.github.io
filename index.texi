@@ -8,6 +8,7 @@ Copyright @copyright{} 2025 Lazytangent
 @end copying
 
 @titlepage
+@insertcopying
 @end titlepage
 
 @contents
@@ -16,9 +17,7 @@ Copyright @copyright{} 2025 Lazytangent
 @node Top
 @top Home
 
-@menu
-* Sect. 1:: About Me
-@end menu
+Just a regular landing page.
 
 @node About Me, , , Top
 @section About Me
@@ -29,13 +28,26 @@ Copyright @copyright{} 2025 Lazytangent
 * What I'd like to do next.
 @end menu
 
-@node What I do, , , About Me
+@node What I do, What I've done, , About Me
 @subsection What I do
 
-@node What I've done, , , About Me
+Hello! I'm Peter. I'm currently a software engineer at Pager Health.
+
+I enjoy building tools and making things easier to maintain, whether it's
+workflows, processes, or software.
+
+@node What I've done, What I'd like to do next, What I do, About Me
 @subsection What I've done
 
-@node What I'd like to do next, , , About Me
+Before my current role, I worked at Science37 and Vault Health as a software
+engineer, and as an instructional assistant and module assistant at App Academy.
+
+Before I started working in the software field, I was a student at App Academy
+in their 24-week JavaScript/Python bootcamp, and before that I had just
+graduated from the University of North Texas with a Bachelor's of Music with
+a focus on Music Education.
+
+@node What I'd like to do next, , What I've done, About Me
 @subsection What I'd like to do next
 
 @bye
